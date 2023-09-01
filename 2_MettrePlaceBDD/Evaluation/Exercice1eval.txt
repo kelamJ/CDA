@@ -35,6 +35,5 @@ CREATE TABLE est_compose(
 
 CREATE INDEX referenceCli ON Client (cli_num)
 
-Exercice 2 :
 
 
