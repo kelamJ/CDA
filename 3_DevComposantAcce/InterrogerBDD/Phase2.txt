@@ -1,0 +1,64 @@
+Phase 2: Exercise sur la base exemple
+
+Jointures :
+
+1.
+Select employe.prenom, noregion
+from employe
+inner join dept on employe.nodep = dept.nodept
+
+2.
+Select nodept, dept.nom, employe.nom
+from employe, dept
+order by dept.nodept
+
+3.
+Select employe.nom from employe, dept where dept.nom = "distribution"
+
+4.
+Select e1.nom, e1.salaire
+from employe e1 INNER JOIN employe e2
+ON e1.salaire = e2.salaire
+
+5.
+Select employe.nom, employe.titre
+from employe
+where titre
+IN (select titre from employe where nom="amartakaldire");
+
+6.
+Select e.nom, e.nodep ,e.salaire
+from employe e
+where e.salaire >
+          ANY (select salaire from employe where nodep=31)
+order by nodep
+
+7.
+Select e.nom, e.nodep ,e.salaire
+from employe e
+where e.salaire >
+          ALL (select salaire from employe where nodep=31)
+order by nodep
+
+8.
+Select e.nom, e.titre
+from employe e
+where nodep = 31
+and titre IN
+(select titre from employe
+where nodep = 32)
+
+9.
+Select e.nom, e.titre
+from employe e
+where nodep = 31
+and titre NOT IN
+(select titre from employe
+where nodep = 32)
+
+10.
+Select employe.nom, employe.titre, employe.salaire
+from employe
+where titre IN
+      (Select titre from employe where employe.nom = "fairent" )
+and salaire IN (select salaire from employe where employe.nom = "fairent" )
