@@ -1,0 +1,43 @@
+Exercice 1.
+DELIMITER |
+
+CREATE PROCEDURE Lst_fournis()
+BEGIN
+    SELECT numfou, numcom FROM Entcom;
+    END |
+
+DELIMITER ;
+
+SHOW CREATE PROCEDURE Lst_fournis;
+
+CALL Lst_fournis;
+
+Exercice 2.
+
+DELIMITER |
+
+CREATE PROCEDURE Lst_Commandes(In ville Varchar(50))
+
+BEGIN
+   SELECT cli_id, cli_nom, cli_prenom, cli_ville
+   FROM client
+   WHERE cli_ville = ville;
+END |
+
+DELIMITER ;
+
+Exercice 3.
+
+DELIMITER |
+
+CREATE PROCEDURE CA_Fournisseur(
+    In nom varchar (50),
+    In prenom varchar (50),
+    In ville varchar (50)
+)
+
+BEGIN
+   INSERT INTO client (cli_nom, cli_prenom, cli_ville) VALUES (nom, prenom, ville);
+END |
+
+DELIMITER ;
