@@ -16,28 +16,32 @@ Exercice 2.
 
 DELIMITER |
 
-CREATE PROCEDURE Lst_Commandes(In ville Varchar(50))
+CREATE PROCEDURE Lst_Commandes(In obscom Varchar(50))
 
 BEGIN
-   SELECT cli_id, cli_nom, cli_prenom, cli_ville
-   FROM client
-   WHERE cli_ville = ville;
+   SELECT produit.codart, produit.libart
+   FROM produit
+            INNER JOIN ligcom ON produit.codart = ligcom.codart
+            INNER JOIN entcom ON ligcom.numcom = entcom.numcom
+   WHERE entcom.obscom LIKE '%urgent%';
 END |
 
 DELIMITER ;
+
+CALL Lst_Commandes('urgent');
 
 Exercice 3.
 
 DELIMITER |
 
 CREATE PROCEDURE CA_Fournisseur(
-    In nom varchar (50),
-    In prenom varchar (50),
+    In qtecde int (11),
+    In priuni decimal (5,0),
     In ville varchar (50)
 )
 
 BEGIN
-   INSERT INTO client (cli_nom, cli_prenom, cli_ville) VALUES (nom, prenom, ville);
+   INSERT INTO ligcom ((qtecde  * priuni)* 1.2) VALUES (nom, prenom, ville);
 END |
 
 DELIMITER ;

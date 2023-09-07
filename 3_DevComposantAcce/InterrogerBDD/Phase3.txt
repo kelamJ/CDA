@@ -40,16 +40,11 @@ Exercice requête SQL
     SELECT nomfou AS "nom fournisseur", numcom AS "numéro de commande", datcom AS "date"
     FROM `fournis` JOIN `entcom` ON entcom.numfou = fournis.numfou;
 -- 11.
-    SELECT ligcom.numcom AS "n° de commande",
-    nomfou AS " nom de fournisseur",
-    libart AS "libellé produit",
-    SUM(qtecde * priuni)
-    FROM `produit`
-    JOIN ligcom ON ligcom.codart = produit.codart
-    JOIN entcom ON entcom.numcom = ligcom.numcom
-    JOIN fournis ON fournis.numfou = entcom.numfou
-    WHERE obscom LIKE "Commande urgente"
-    GROUP BY libart;
+    SELECT produit.codart, produit.libart
+FROM produit
+         INNER JOIN ligcom ON produit.codart = ligcom.codart
+         INNER JOIN entcom ON ligcom.numcom = entcom.numcom
+WHERE entcom.obscom LIKE '%urgent%';
 -- 12.
 V.1
     SELECT fournis.nomfou, ligcom.qteliv AS "article livré" FROM `ligcom`
