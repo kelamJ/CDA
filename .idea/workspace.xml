@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f95405a8-e796-4f70-9b40-48cb7319cda4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/3_DevComposantAcce/LesTransactions/Exercice1.txt" afterDir="false" />
-    </list>
+    <list default="true" id="f95405a8-e796-4f70-9b40-48cb7319cda4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2V6x0EN0KYCCwiUChT5Hi04cvyN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/kelam/Bureau/CDA",
+    "last_opened_file_path": "/home/kelam/Bureau/CDA/3_DevComposantAcce/LesDeclencheurs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694170105607</updated>
       <workItem from="1694170106636" duration="14000" />
+      <workItem from="1694422817084" duration="21000" />
     </task>
     <servers />
   </component>
