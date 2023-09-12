@@ -21,7 +21,7 @@ FROM `orders`;
 
 DELIMITER //
 
-CREATE PROCEDURE CalculateAverageDeliveryTime(IN dateRangeParam VARCHAR(100))
+CREATE PROCEDURE CalculateAverageDeliveryTime(IN dateRangeParam DATE(10))
 BEGIN
   IF dateRangeParam IS NULL OR dateRangeParam = '' THEN
     -- Calculer la moyenne pour toutes les commandes
@@ -32,7 +32,7 @@ BEGIN
     SET @sql = CONCAT('
     SELECT ROUND(AVG(DATEDIFF(ShippedDate, OrderDate))) AS "Délai moyen de livraison en jours"
     FROM orders
-    WHERE ShippedDate BETWEEN ', dateRangeParam);
+    WHERE YEAR (ShippedDate) = ', dateRangeParam);
     PREPARE stmt FROM @sql;
     EXECUTE stmt;
     DEALLOCATE PREPARE stmt;
