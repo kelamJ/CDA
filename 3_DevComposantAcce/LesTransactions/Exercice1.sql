@@ -1,4 +1,4 @@
-Phase 2. Exercice 1 :
+--Phase 2. Exercice 1 :
 
 1. J'en conclu que la transaction ne pourra pas s'effectuer car il manque l'instruction "COMMIT" qui va rendre effective les modifications dans la base de données.
 
@@ -10,5 +10,4 @@ Phase 2. Exercice 1 :
 
 5. En effectuant un ROLLBACK;
 
-Exercice 2.
-...
+-- Exercice 2.

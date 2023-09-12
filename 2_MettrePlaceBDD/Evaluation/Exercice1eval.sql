@@ -1,4 +1,4 @@
-Evaluation exercice 1 :
+--Evaluation exercice 1 :
 
 CREATE TABLE Client(
    cli_num INT,

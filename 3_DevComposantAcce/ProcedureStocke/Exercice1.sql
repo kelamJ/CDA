@@ -1,4 +1,4 @@
-Exercice 1.
+--Exercice 1.
 DELIMITER |
 
 CREATE PROCEDURE Lst_fournis()
@@ -13,7 +13,7 @@ SHOW CREATE PROCEDURE Lst_fournis;
 CALL Lst_fournis;
 
 
-Exercice 2.
+--Exercice 2.
 
 DELIMITER |
 
@@ -32,7 +32,7 @@ DELIMITER ;
 CALL Lst_Commandes('urgent');
 
 
-Exercice 3.
+--Exercice 3.
 
 DELIMITER |
 
