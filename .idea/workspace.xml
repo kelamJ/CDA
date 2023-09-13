@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f95405a8-e796-4f70-9b40-48cb7319cda4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0b0b101f-9c19-4e82-88fe-bf9f78a39d08.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0b0b101f-9c19-4e82-88fe-bf9f78a39d08.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de/storage_v2/_src_/schema/cp.bQwAAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de/storage_v2/_src_/schema/cp.bQwAAA.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de/storage_v2/_src_/schema/hotel.tMHtBQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de/storage_v2/_src_/schema/hotel.tMHtBQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/892df3eb-21bf-4ec8-a184-13575107b0de/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_DevComposantAcce/Evaluation/Partie2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/3_DevComposantAcce/Evaluation/Partie2.sql" afterDir="false" />
-    </list>
+    <list default="true" id="f95405a8-e796-4f70-9b40-48cb7319cda4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +60,7 @@
       <workItem from="1694526904248" duration="769000" />
       <workItem from="1694534660485" duration="632000" />
       <workItem from="1694535324360" duration="272000" />
+      <workItem from="1694620757252" duration="103000" />
     </task>
     <servers />
   </component>
