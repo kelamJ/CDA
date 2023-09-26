@@ -1,0 +1,78 @@
+Phase 2 :
+
+1. 
+-Lecteur - Un usager de la bibliothèque qui souhaite emprunter ou consulter des documents.
+
+-Personnel de la bibliothèque - Les employés de la bibliothèque qui gèrent les opérations quotidiennes, y compris l'enregistrement de nouveaux lecteurs et de nouveaux documents, ainsi que la gestion des prêts et des retours.
+
+-Bénévoles - Des volontaires qui peuvent être autorisés à effectuer des opérations de prêt pendant une période limitée.
+
+-Bibliothécaire - Le responsable de la bibliothèque qui peut demander des lettres de relance aux lecteurs.
+
+-Système informatique - Le système de gestion de la bibliothèque qui automatise diverses opérations.
+
+2.
+Cas d'usage possible :
+Cas d'usage possibles :
+
+S'inscrire en tant que nouveau membre (Personnel)
+Enregistrer un nouveau média (Personnel)
+Consulter la liste des médias disponibles (Membre)
+Rechercher un média par titre et/ou auteur (Membre)
+Consulter la liste des médias par type (Membre)
+Consulter la liste des médias par auteur (Membre)
+Consulter la liste des médias par catégorie (par exemple, films, musique, livres) (Membre)
+Emprunter un média (Membre)
+Emprunter un média avec caution (Membre)
+Emprunter un média pour consultation sur place uniquement (Membre)
+Retourner un média (Membre)
+Enregistrer un prêt (Personnel, Bénévoles)
+Envoyer une lettre de relance au membre (Bibliothécaire)
+Mettre hors service un média perdu ou volé (Personnel)
+Modifier les informations personnelles d'un membre (Personnel)
+Consulter la situation de chaque membre (Personnel)
+Gérer l'accès des bénévoles à l'enregistrement des emprunts (Personnel)
+
+3.
+Titre : Emprunter une ressource
+
+Acteur principal : Membre
+
+Acteurs secondaires : Personnel de la médiathèque, Système informatique
+
+Scénario principal :
+
+Le Membre se rend à la médiathèque pour emprunter une ressource (par exemple, un livre, un CD ou un DVD).
+
+Le Membre se connecte au système informatique en utilisant sa carte de membre.
+
+Le Membre recherche la ressource qu'il souhaite emprunter en utilisant le système informatique. Il peut effectuer une recherche par titre, par auteur, par catégorie, etc.
+
+Le Membre sélectionne la ressource qu'il souhaite emprunter dans les résultats de la recherche.
+
+Le système vérifie si le Membre remplit les conditions nécessaires pour emprunter la ressource :
+
+Le Membre doit être en règle (c'est-à-dire avoir réglé sa cotisation).
+Le Membre ne doit pas avoir atteint le nombre maximum d'emprunts autorisés (par exemple, 5 emprunts simultanés).
+Si le Membre remplit toutes les conditions, le système enregistre l'emprunt de la ressource au nom du Membre.
+
+Le Membre peut maintenant emprunter la ressource physiquement à la médiathèque en la récupérant au comptoir de prêt.
+
+Le personnel de la médiathèque ou un bénévole valide l'emprunt en vérifiant la carte du Membre et en lui remettant la ressource.
+
+Le système enregistre la date de l'emprunt et attribue une date de retour prévue à la ressource.
+
+Le Membre quitte la médiathèque avec la ressource empruntée.
+
+Scénarios alternatifs :
+
+SA1 : Le Membre ne remplit pas les conditions pour emprunter :
+
+À l'étape 5, si le Membre n'est pas en règle (par exemple, n'a pas réglé sa cotisation) ou a atteint le nombre maximum d'emprunts autorisés, le système affiche un message d'erreur et l'emprunt est refusé.
+SA2 : La ressource n'est pas disponible :
+
+À l'étape 5, si la ressource que le Membre souhaite emprunter n'est pas disponible (par exemple, déjà empruntée par quelqu'un d'autre), le système affiche un message d'indisponibilité et propose éventuellement de la mettre en liste d'attente.
+SA3 : La ressource est en retard :
+
+Après l'emprunt, si le Membre ne retourne pas la ressource dans les délais prévus, le système génère un rappel et le personnel de la médiathèque peut appliquer des sanctions (par exemple, des frais de retard).
+Ces scénarios alternatifs couvrent les situations où un emprunt peut échouer en raison de conditions non remplies ou d'une indisponibilité de la ressource. Le scénario principal décrit le processus d'emprunt réussi d'une ressource par un Membre de la médiathèque.
