@@ -1,0 +1,201 @@
+<mxfile host="app.diagrams.net" modified="2023-09-26T11:22:20.757Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.8.2" etag="QFYVOPScmt1bd5NDoKQ5" type="device">
+  <diagram id="c353e689-cc48-0f55-8438-535c399423fd" name="Page-1">
+    <mxGraphModel dx="956" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="733bdf411f744d5c-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0.5;entryY=0;" parent="1" source="8Vn2oxLN-hSqkmpy7E3C-6" target="733bdf411f744d5c-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292" y="151" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="292" y="50" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="733bdf411f744d5c-3" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Possède une carte de lecteur ?&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" parent="1" vertex="1">
+          <mxGeometry x="232" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="733bdf411f744d5c-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0.5;entryY=0;" parent="1" source="733bdf411f744d5c-3" target="733bdf411f744d5c-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="292" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="292" y="210" />
+              <mxPoint x="292" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="733bdf411f744d5c-5" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Correct&lt;/font&gt;?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" parent="1" vertex="1">
+          <mxGeometry x="252" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="733bdf411f744d5c-6" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0;entryY=0.5;" parent="1" source="733bdf411f744d5c-5" target="733bdf411f744d5c-9" edge="1">
+          <mxGeometry x="-0.8644" relative="1" as="geometry">
+            <mxPoint x="422" y="250" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="733bdf411f744d5c-9" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;Demande une carte de lecteur&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" parent="1" vertex="1">
+          <mxGeometry x="410" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="733bdf411f744d5c-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=1;entryY=0.5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="733bdf411f744d5c-9" target="733bdf411f744d5c-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="150" />
+            </Array>
+            <mxPoint x="510" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="733bdf411f744d5c-16" value="Payer la cotisation" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000066;" parent="1" vertex="1">
+          <mxGeometry x="340" y="348" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-3" value="&lt;font color=&quot;#ff8000&quot;&gt;Personnel&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="338" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-6" value="&lt;font color=&quot;#ff8000&quot;&gt;Emprunteur&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0.417;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="733bdf411f744d5c-5" target="733bdf411f744d5c-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="290" />
+              <mxPoint x="350" y="290" />
+              <mxPoint x="350" y="300" />
+              <mxPoint x="390" y="300" />
+            </Array>
+            <mxPoint x="221.65999999999997" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-10" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 11px;&quot;&gt;Remplir la fiche lecteur uniquement &lt;br&gt;par le personnel&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="122" y="320" width="144" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="733bdf411f744d5c-16" target="8Vn2oxLN-hSqkmpy7E3C-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="434" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="310" y="374" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="368" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="142" y="367.66" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0.5;entryY=0;" edge="1" target="8Vn2oxLN-hSqkmpy7E3C-15" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="448" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="428" />
+              <mxPoint x="390" y="428" />
+            </Array>
+            <mxPoint x="390" y="388" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-15" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Correct&lt;/font&gt;?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="350" y="448" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-16" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0;entryY=0.5;" edge="1" target="8Vn2oxLN-hSqkmpy7E3C-17" parent="1">
+          <mxGeometry x="-0.8644" relative="1" as="geometry">
+            <mxPoint x="520" y="468" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="430" y="468" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-17" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;Demande de payer la cotisation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="508" y="448" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="8Vn2oxLN-hSqkmpy7E3C-17" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="368" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="568" y="368" />
+            </Array>
+            <mxPoint x="608" y="428" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-19" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;Vérifier le nombre d&#39;emprunts en cours&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="330" y="548" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0.5;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.66" y="548" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="389.66" y="528" />
+              <mxPoint x="389.66" y="528" />
+            </Array>
+            <mxPoint x="389.66" y="488" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-23" value="&lt;font color=&quot;#ff8000&quot;&gt;yes&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="488" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-24" value="&lt;font color=&quot;#ff8000&quot;&gt;yes&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="266" y="270" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0.5;entryY=0;" edge="1" target="8Vn2oxLN-hSqkmpy7E3C-26" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="648" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="628" />
+              <mxPoint x="390" y="628" />
+            </Array>
+            <mxPoint x="390" y="588" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-26" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;A-t-il plus de 5 emprunts ?&lt;/span&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="330" y="630" width="120" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-27" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;entryX=0;entryY=0.5;" edge="1" target="8Vn2oxLN-hSqkmpy7E3C-28" parent="1">
+          <mxGeometry x="-0.8644" relative="1" as="geometry">
+            <mxPoint x="515" y="668" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="450" y="670" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-28" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;Sélectionner le document à emprunter&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="530" y="646.5" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;exitX=0.539;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="871" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="424.63" y="870.66" />
+            </Array>
+            <mxPoint x="424.31000000000006" y="799.0019999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-30" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;Présenter la carte de lecteur&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="365" y="750" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-31" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;exitX=0.539;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="767.16" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="767.16" />
+            </Array>
+            <mxPoint x="589.6800000000001" y="695.5019999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-32" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;Prêter le document&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="195" y="850" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-33" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 12px&quot;&gt;Enregistrer l&#39;emprunt&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontSize=14;fontColor=#000066;" vertex="1" parent="1">
+          <mxGeometry x="40" y="940" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8Vn2oxLN-hSqkmpy7E3C-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF8000;fontFamily=Tahoma;fontSize=14;fontColor=#FF8000;exitX=0.539;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="161.29999999999998" y="970.66" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="266.29999999999995" y="970.66" />
+            </Array>
+            <mxPoint x="265.98" y="899.0019999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
